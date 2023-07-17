@@ -42,7 +42,7 @@ async def on_ready():
     
         print(weather)
         if weather[0]['main'] == 'Rain':
-            await channel.send('It is raining in Ba Sing Se.')
+            await channel.send('<@1129061896809627689> It is raining in Ba Sing Se.')
             print("notified Caden")
         sleep(7200)
 
